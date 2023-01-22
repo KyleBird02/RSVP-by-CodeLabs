@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
-}
+@import url("https://fonts.googleapis.com/css?family=Manrope");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.screen{
+  width: 100vw;
+  height: 100vh;
+  background: url('./assets/bg.png');
+  background-size: 100vw 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  overflow-x: hidden;
+  font-family: 'Poppins';
+  color: #E2E2E8;
+}
+
+.self-center{
+  align-self: center;
+  margin-top: 25px;
+  padding: 5px 10px;
+}
+
+.rsvp-logo{
+  font-weight: 600;
+  font-size: 50px;
+  background: linear-gradient(25deg, #4680be 0%, #dd0aec 50.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-left: 10px;
+}
+
+.rsvp-img{
+  background: url('./assets/UNSCRIPT.png');
+  background-size: 140px 70px;
+  width: 140px;
+  height: 70px;
+  margin-left: 10px;
+}
+
+.graphic-1{
+  align-self: center;
+  background: url('./assets/graphic1.png');
+  background-size: 95vw 50vh;
+  width: 95vw;
+  height: 50vh;
+}
+
+.graphic-2{
+  align-self: center;
+  background: url('./assets/graphic2.png');
+  background-size: 350px 350px;
+  width: 350px;
+  height: 350px;
+}
+
+.welcome-text{
+  color: #E2E2E8;
+  font-size: 25px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.button{
+  margin-top: 25px;
+  height: 70px;
+  width: 70vw;
+  border-radius: 20px;
+  font-family: 'Manrope';
+  font-weight: 600;
+  font-size: 22px;
   color: white;
+  /* width: 70vw; */
+  align-self: center;
+  background: linear-gradient(90deg, rgba(67, 157, 254, 0.75) 0%, rgba(246, 135, 255, 0.75) 82.37%);
+  /* border-radius: 30.0056px; */
+  border : none;
+  padding: 10px 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.round{
+  border-radius: 10px;
+  padding: 10px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Kyle CSS*/
+.kyle-rsvp-img{
+  position: relative;
+  background-size: 245px 35px;
+  width: 245px;
+  height: 35px;
+  left: 24.88px;
+  top: 39.06px;
+  margin-bottom: 45px;
 }
+
+.powered-by{
+  font-family: 'Nunito Sans';
+  position: relative;
+  font-style: normal;
+  font-weight: 700;
+  left: 35px;
+  font-size: 17px;
+  line-height: 5px;
+  color: #403E3E;
+}
+
+.text{
+  position: absolute;
+  font-family: 'Poppins';
+}
+
+.kyle-extrabold{
+  font-weight: 800;
+  font-size: 35px;
+  left: 10%;
+  bottom: -90%;
+}
+
+.kyle-medium{
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 80px;
+  bottom: -25%;
+  left: 10%;
+}
+
+.kyle-regular{
+  font-size: 20px;
+  bottom: -205%;
+  left: 11%;
+  width: 35vh;
+}
+
+.kyle-button{
+  position: absolute;
+  bottom: 7%;
+  height: 65px;
+  width: 70vw;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+.outline{
+  background: none;
+  border : solid 2px #dd0aec;
+}
+
