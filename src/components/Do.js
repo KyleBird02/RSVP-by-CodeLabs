@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-export default function Dont() {
+export default function Do() {
   const navigate = useNavigate();
 
   return (
@@ -10,7 +10,7 @@ export default function Dont() {
       <button
         className="button kyle-button"
         onClick={() => {
-          navigate("/dos");
+          navigate("/register");
         }}
       >
         See More
