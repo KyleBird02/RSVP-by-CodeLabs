@@ -4,6 +4,7 @@ export default function Register() {
   return (
     <div className="screen">
       <div className="rsvp-img kyle-rsvp-img"></div>
+      <h1 className='powered-by'>Powered By CodeLabs x Mozilla</h1>
       <div className="poster-image-maybe"></div>
 
       <h2>Don't miss out on Unscript 2k23!</h2>

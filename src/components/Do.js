@@ -7,12 +7,13 @@ export default function Do() {
   return (
     <div className="screen">
       <div className="rsvp-img kyle-rsvp-img"></div>
+      <h1 className='powered-by'>Powered By CodeLabs x Mozilla</h1>
       <div className="graphic-dos"></div>
-      <h2>
+      <h2 className="dos-title">
         Here's a list of things you <span className="green-will">will</span>{" "}
         get:
       </h2>
-      <ul>
+      <ul className="dos-points">
         <li>
           <span className="tick">&#10004;</span> 1 Lakh+ Prize Pool
         </li>
