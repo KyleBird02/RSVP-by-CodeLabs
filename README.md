@@ -1,3 +1,39 @@
+# RSVP by CodeLabs
+
+RSVP is a student event check-in application designed to streamline attendance tracking using unique QR codes. This app ensures that only attendees present at the event are marked as present.
+
+## Features
+
+### Onboarding Screens
+
+![](https://res.cloudinary.com/dsmmimu0q/image/upload/h_400/v1726881404/RSVP/pqhm5m0dh12ivgbyvn3u.png)
+![](https://res.cloudinary.com/dsmmimu0q/image/upload/h_400/v1726881404/RSVP/rlmjh9qm7lppypsjrahf.png)
+
+
+- **Welcome Message**: Introduces RSVP as a one-stop shop for event registrations.
+- **Get Started Button**: Guides users to begin the registration process.
+  
+### Login Screen
+
+![](https://res.cloudinary.com/dsmmimu0q/image/upload/h_400/v1726881404/RSVP/w4e9raqvk9pybibhlmbd.png)
+
+- **User Input**: Students enter their full name, CRCE email ID, year, and class.
+- **Proceed Button**: Initiates login and QR code generation process.
+
+### Home Screen
+
+![](https://res.cloudinary.com/dsmmimu0q/image/upload/h_400/v1726881404/RSVP/puqt6gtz3hecdybbqr5y.png)
+
+- **Event Details**: Displays personalized event information.
+- **QR Code**: A unique QR code is generated for each student to present at the event for attendance verification.
+
+## How It Works
+1. **Login**: Students log in with their university credentials.
+2. **QR Generation**: A unique QR code is created for each student.
+3. **Event Check-In**: Students present their QR code to event representatives for attendance marking.
+
+RSVP by CodeLabs ensures accurate and efficient attendance tracking at student events.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
